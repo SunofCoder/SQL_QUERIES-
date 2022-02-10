@@ -1,0 +1,88 @@
+
+1.
+
+CREATE TABLE employee{
+id INTEGER PRIMARY KEY,
+name VARCHAR(50),
+brithday DATE,
+email VARCHAR(100)
+};
+
+2.
+insert into employee (name, email, Brithday) values ('Othilie', 'orannie0@nps.gov', null);
+insert into employee (name, email, Brithday) values ('Payton', 'pmusso1@noaa.gov', null);
+insert into employee (name, email, Brithday) values ('Issy', 'iatcheson2@shutterfly.com', '1950-06-07');
+insert into employee (name, email, Brithday) values ('Marketa', 'mchismon3@sohu.com', null);
+insert into employee (name, email, Brithday) values ('Dyna', 'dstockill4@geocities.jp', '1938-07-18');
+insert into employee (name, email, Brithday) values ('Zach', 'zglaum5@columbia.edu', '1934-02-09');
+insert into employee (name, email, Brithday) values ('Fannie', 'fsonger6@themeforest.net', '1939-10-07');
+insert into employee (name, email, Brithday) values ('Tabb', 'tdavidovits7@china.com.cn', '1929-04-20');
+insert into employee (name, email, Brithday) values ('Georgena', 'gjosskowitz8@wikispaces.com', '1940-11-30');
+insert into employee (name, email, Brithday) values ('Bryn', 'bgarwill9@tripod.com', null);
+insert into employee (name, email, Brithday) values ('Albertine', 'apatsalla@biglobe.ne.jp', '1970-12-27');
+insert into employee (name, email, Brithday) values ('Marten', 'mguillotonb@tuttocitta.it', '1956-11-28');
+insert into employee (name, email, Brithday) values ('Rachel', 'rrafterc@clickbank.net', null);
+insert into employee (name, email, Brithday) values ('Chevy', 'ctemporald@comsenz.com', null);
+insert into employee (name, email, Brithday) values ('Effie', 'elawillee@spotify.com', '1920-07-22');
+insert into employee (name, email, Brithday) values ('Cathleen', null, '1990-06-01');
+insert into employee (name, email, Brithday) values ('Torey', 'tholdreng@homestead.com', '1904-09-20');
+insert into employee (name, email, Brithday) values ('Hulda', 'hwoodallh@google.nl', '1906-01-12');
+insert into employee (name, email, Brithday) values ('Aldin', 'aramsbothami@blog.com', '1922-08-22');
+insert into employee (name, email, Brithday) values ('Whit', 'wurwenj@europa.eu', '1958-09-22');
+insert into employee (name, email, Brithday) values ('Rem', 'rwoollacottk@artisteer.com', '1960-07-02');
+insert into employee (name, email, Brithday) values ('Ware', null, '1938-03-30');
+insert into employee (name, email, Brithday) values ('Talbert', 'tgunningm@devhub.com', '1911-02-22');
+insert into employee (name, email, Brithday) values ('Jasper', 'jgumbn@dedecms.com', '1942-02-14');
+insert into employee (name, email, Brithday) values ('Lezley', 'lbartelso@adobe.com', '1927-06-10');
+insert into employee (name, email, Brithday) values ('Rani', 'rewencep@cargocollective.com', '1976-11-15');
+insert into employee (name, email, Brithday) values ('Sibyl', 'scolquittq@bloglines.com', '1995-02-06');
+insert into employee (name, email, Brithday) values ('Elane', 'ebattramr@hubpages.com', null);
+insert into employee (name, email, Brithday) values ('Bernard', 'bparnalls@dailymail.co.uk', '1938-05-31');
+insert into employee (name, email, Brithday) values ('Chevalier', 'cglassfordt@cnet.com', '1995-02-27');
+insert into employee (name, email, Brithday) values ('Lauryn', 'lpeachu@canalblog.com', '1968-03-08');
+insert into employee (name, email, Brithday) values ('Renee', 'rstangoev@mapy.cz', '1925-04-10');
+insert into employee (name, email, Brithday) values ('Laurice', 'lgreatbankw@friendfeed.com', '1908-02-21');
+insert into employee (name, email, Brithday) values ('Thibaut', 'tmargerisonx@usatoday.com', null);
+insert into employee (name, email, Brithday) values ('Lucky', 'linglesony@si.edu', '1997-02-16');
+insert into employee (name, email, Brithday) values ('Caye', 'cmaguirez@ustream.tv', '1954-01-23');
+insert into employee (name, email, Brithday) values ('Baillie', 'bfoulgham10@rakuten.co.jp', '1948-07-21');
+insert into employee (name, email, Brithday) values ('Berny', 'bfeares11@sphinn.com', null);
+insert into employee (name, email, Brithday) values ('Marjy', 'mkneaphsey12@ameblo.jp', '1984-10-15');
+insert into employee (name, email, Brithday) values ('Ambrose', null, '1956-04-09');
+insert into employee (name, email, Brithday) values ('Rochell', null, null);
+insert into employee (name, email, Brithday) values ('Glenn', 'gfibbings15@economist.com', '1951-03-26');
+insert into employee (name, email, Brithday) values ('Linzy', 'lfitzsymonds16@admin.ch', '1959-03-24');
+insert into employee (name, email, Brithday) values ('Corrianne', 'cjudron17@instagram.com', '1906-07-15');
+insert into employee (name, email, Brithday) values ('Marylinda', null, '1922-05-24');
+insert into employee (name, email, Brithday) values ('Viv', 'vpovlsen19@com.com', '1986-12-15');
+insert into employee (name, email, Brithday) values ('Audre', 'acarlo1a@hao123.com', '1961-03-05');
+insert into employee (name, email, Brithday) values ('Berkley', 'bhedley1b@narod.ru', '1986-11-15');
+insert into employee (name, email, Brithday) values ('Lilian', null, '1977-10-14');
+insert into employee (name, email, Brithday) values ('Fleur', 'fabele1d@bbc.co.uk', '1970-01-11');
+
+3.
+
+UPDATE employee
+SET name ="Sun",
+WHERE id =2;
+
+UPDATE employee
+SET email ="xxx@yahoo.com",
+WHERE id=2;
+
+
+UPDATE employee
+SET brithday ="10-10-2010",
+WHERE id =2;
+
+UPDATE employee
+SET name ="Ozzy",
+WHERE id =3;
+
+UPDATE employee
+SET name ="Zen",
+WHERE id =5;
+
+4.
+DELETE  FROM employee
+WHERE id  BETWEEN 1 AND 5 ;
