@@ -1,0 +1,22 @@
+1.
+(SELECT first_name FROM Actor)
+ UNION (SELECT first_name FROM customer ORDER BY first_name)
+
+2.
+
+(SELECT first_name FROM Actor)
+INTERSECT (SELECT first_name FROM CUSTOMER)
+
+
+3.
+ (SELECT first_name FROM Actor)
+EXCEPT (SELECT first_name FROM CUSTOMER)
+
+
+
+4.
+(SELECT first_name FROM Actor)
+EXCEPT ALL (SELECT first_name FROM CUSTOMER)
+
+
+
